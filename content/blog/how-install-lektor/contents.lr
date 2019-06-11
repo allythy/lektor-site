@@ -1,0 +1,53 @@
+title: How install Lektor
+---
+pub_date: 2019-06-10
+---
+author: allythy
+---
+subtitle: Lektor learned from the huge range of static file generators like Jekyll, Pelican, Hugo, Middleman and many more about the value of generating a completely static website.
+---
+body:
+
+Lektor learned from the huge range of static file generators like Jekyll,
+Pelican, Hugo, Middleman and many more about the value of generating a
+completely static website. This means that unlike WordPress or similar
+solutions it does not run on a server, but your local computer (or a build
+server), and generates static HTML that can be uploaded to any web server or
+content distribution platform like S3 with CloudFront.
+
+**Install Lektor**
+
+Installation by the python package manager, pip:
+
+```python
+pip install Lektor
+```
+
+**Creating a New Project**
+
+To create a new project open a terminal and navigate to the preferred location
+of your project. Then execute the quickstart command to create a new project:
+
+```python
+lektor quickstart
+```
+This will ask you a few questions and then create a new Lektor project with
+some basic configuration for you.
+
+**Running your Project**
+
+Now that you have a project you can run it. As a developer the easiest way
+to do that is to use the server which runs the project on your local machine as
+if it was a dynamic website.
+
+All you have to do is to enter your project directory and run it:
+
+```python
+cd yourproject
+lektor server
+```
+This will automatically start the server and you can navigate to
+`localhost:5000` to open the project.
+
+You can keep the server running, it will automatically rebuild your files as
+they change.
